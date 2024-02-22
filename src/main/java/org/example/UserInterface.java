@@ -72,7 +72,9 @@ public class UserInterface {
                 card.removeProductsFromCard(inventory.Search(scanner.next()));
                 Start();
             case 6:
-
+                DisplayProductsInfo(card.getProductsFromCard());
+                System.out.println("Price of your order is : "+card.OrderItemsFromCard());
+                Start();
         }
 
     }

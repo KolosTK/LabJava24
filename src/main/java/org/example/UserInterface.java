@@ -75,6 +75,9 @@ public class UserInterface {
                 DisplayProductsInfo(card.getProductsFromCard());
                 System.out.println("Price of your order is : "+card.OrderItemsFromCard());
                 Start();
+            case 7:
+                System.out.println("Finish...");
+                break;
         }
 
     }
